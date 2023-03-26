@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <link rel="stylesheet" type="text/css" href="../css/style.css">
+     <link href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css" rel="stylesheet">
+
     <title>Document</title>
 </head>
 <body>
@@ -36,5 +39,17 @@
     <div class="col-sm-4">   <p>这是一些文本。</p> </div>
   </div>
 </div>
+<div class="container-fluid mt-3">
+  <h1>等宽响应式列</h1>
+  <p>重置浏览器大小查效果。</p>
+  <p> 在移动设备上，即屏幕宽度小于 576px 时，四个列将会上下堆叠排版。</p>
+  <div class="row">
+    <div class="col-sm-3 p-3 bg-primary text-white">.col</div>
+    <div class="col-sm-3 p-3 bg-dark text-white">.col</div>
+    <div class="col-sm-3 p-3 bg-primary text-white">.col</div>
+    <div class="col-sm-3 p-3 bg-dark text-white">.col</div>
+  </div>
+</div>
+
 </body>
 </html>
